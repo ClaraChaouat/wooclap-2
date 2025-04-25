@@ -81,6 +81,8 @@ All you need is **Node ≥ 18** and **npm ≥ 9**.
 
 #### Install both frontend and backend dependencies
 
+`npm install`
+
 `npm run install:all`
 
 #### Start the project
