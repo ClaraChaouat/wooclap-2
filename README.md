@@ -1,6 +1,4 @@
-# 🪨📄✂️🦎🖖 Wooclap Tech Case — Exercise 2
-
-## 🎮 Real-time Rock-Paper-Scissors-Lizard-Spock
+# 🎮 Real-time Rock-Paper-Scissors-Lizard-Spock
 
 This project is a real-time 2-players game built with **React**, **Socket.IO**, and **Node.js**, as part of the Wooclap technical assessment.
 
@@ -8,20 +6,20 @@ Players join from separate tabs/devices, pick one of the 5 actions, and receive 
 
 ---
 
-## ✅ Features
+## Features
 
-- 🔁 Real-time multiplayer with Socket.IO
-- ⏳ Waiting screen until both players are connected
-- 🎮 Choice of 5 actions: Rock, Paper, Scissors, Lizard, Spock
-- 🧠 Waiting state when one player chooses
-- 🏁 Synchronized result screen when both have picked
-- 🔄 “New round” resets the game for both players
-- 🧩 Custom React hook (`useGameSocket`) handling all logic
-- 🧪 Unit-tested using React Testing Library + Jest
+- Real-time multiplayer with Socket.IO
+- Waiting screen until both players are connected
+- Choice of 5 actions: Rock, Paper, Scissors, Lizard, Spock
+- Waiting state when one player chooses
+- Synchronized result screen when both have picked
+- “New round” resets the game for both players
+- Custom React hook (`useGameSocket`) handling all logic
+- Unit-tested using React Testing Library + Jest
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ``` txt
 wooclap-fullstack/
@@ -48,7 +46,7 @@ wooclap-fullstack/
 └── .gitignore
 ```
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 | Layer     | Tech stack                             |
 |-----------|----------------------------------------|
@@ -58,12 +56,12 @@ wooclap-fullstack/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 This is a **monorepo** using plain **npm workspaces**
 All you need is **Node ≥ 18** and **npm ≥ 9**.
 
-### 📦 Prerequisites
+### Prerequisites
 
 | Tool | Version |
 |------|---------|
@@ -72,7 +70,7 @@ All you need is **Node ≥ 18** and **npm ≥ 9**.
 
 ---
 
-### 📥 Installation
+### Installation
 
 
 `git clone https://github.com/ClaraChaouat/wooclap-2.git`
@@ -92,7 +90,7 @@ All you need is **Node ≥ 18** and **npm ≥ 9**.
 Run Socket.IO server on http://localhost:3001
 Run frontend using React (CRA) on http://localhost:3000.
 
-### 🧪 Run Tests (fontend only)
+### Run Tests (fontend only)
 
 `npm test`
 
